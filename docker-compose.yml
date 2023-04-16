@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+  db:
+    image: mysql:8
+    environment:
+      - MYSQL_ROOT_PASSWORD=axy
+      - MYSQL_DATABASE=library
+    ports:
+      - "127.0.0.1:3306:3306"
