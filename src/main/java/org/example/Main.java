@@ -1,4 +1,4 @@
-package org.example;// For convenience, always static import your generated tables and jOOQ functions to decrease verbosity:
+package org.example;
 
 
 import org.jooq.DSLContext;
@@ -10,6 +10,7 @@ import org.jooq.impl.DSL;
 import java.sql.Connection;
 import java.sql.DriverManager;
 
+// For convenience, always static import your generated tables and jOOQ functions to decrease verbosity:
 import static org.example.generated.tables.Author.AUTHOR;
 
 public class Main {
@@ -31,7 +32,7 @@ public class Main {
                 String firstName = r.getValue(AUTHOR.FIRST_NAME);
                 String lastName = r.getValue(AUTHOR.LAST_NAME);
 
-                System.out.println("ID: " + id + " first name: " + firstName + " last name: " + lastName);
+                System.out.println("ID: " + id + ", first name: " + firstName + ", last name: " + lastName);
             }
         }
 
