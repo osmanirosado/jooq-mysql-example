@@ -11,7 +11,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 
 // For convenience, always static import your generated tables and jOOQ functions to decrease verbosity:
-import static org.example.generated.tables.Author.AUTHOR;
+import static org.example.jooq.tables.Author.AUTHOR;
 
 public class Main {
     public static void main(String[] args) {
