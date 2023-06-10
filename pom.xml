@@ -18,19 +18,7 @@
         <dependency>
             <groupId>org.jooq</groupId>
             <artifactId>jooq</artifactId>
-            <version>3.18.3</version>
-        </dependency>
-
-        <!-- These may not be required, unless you use the GenerationTool manually for code generation -->
-        <dependency>
-            <groupId>org.jooq</groupId>
-            <artifactId>jooq-meta</artifactId>
-            <version>3.18.3</version>
-        </dependency>
-        <dependency>
-            <groupId>org.jooq</groupId>
-            <artifactId>jooq-codegen</artifactId>
-            <version>3.18.3</version>
+            <version>3.18.4</version>
         </dependency>
         <dependency>
             <groupId>com.mysql</groupId>
